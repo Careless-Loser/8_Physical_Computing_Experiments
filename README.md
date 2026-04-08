@@ -1,20 +1,58 @@
-# 6 Physical Computing Experiments - Bath Spa University
-**Student:** 
-Ifrah Imtiaz - 523894
+# 8 Physical COmputing Experiments
+
+Welcome to this Physical Computing project repository! This collection of Arduino experiments serves as the practical foundation for my broader assessment and digital portfolio. It contains code, wiring guides, and documentation for eight distinct hardware experiments exploring sensors, actuators, and digital logic using the Arduino Uno R3.
+
+## 🔗 Project Links
+* **Google Drive:** [Project Folder](https://drive.google.com/drive/folders/1V7OZR1d_17ikVOQnm-Gxx7CaN_fp-wWu?usp=drive_link)
+* **GitHub Repository:** [6_Physical_Computing_Experiments](https://github.com/Careless-Loser/6_Physical_Computing_Experiments.git)
+* **YouTube Playlist:** [Full Experiment Playlist](https://www.youtube.com/playlist?list=PLXSlNqwzq_K5HqcufmH5nnDKOp1EN07ac)
+
+## 📂 Repository Structure & Video Demonstrations
+
+This repository is organized into individual folders for each experiment, along with a shared library directory. You can view the video demonstration for each completed project below:
+
+* **Experiment 1: Car Sensor Automatic Gate**
+  * Uses an HC-SR04 Ultrasonic Sensor and an SG90 Servo Motor to detect approaching objects and automatically open a miniature gate.
+  * 🎥 [Watch Video Demonstration](https://youtu.be/Q-aJqqHBv9Q)
+* **Experiment 2: BSU LED Dot Matrix**
+  * Explores visual displays using an LED Dot Matrix to showcase patterns or text.
+  * 🎥 [Watch Video Demonstration](https://youtu.be/7gKngg2lAn8)
+* **Experiment 3: RGB LED**
+  * Demonstrates color mixing and Pulse Width Modulation (PWM) by cycling through the color spectrum.
+  * 🎥 [Watch Video Demonstration](https://youtu.be/A97DjAXfy-w)
+* **Experiment 4: Digital Inputs**
+  * Focuses on reading digital signals from the physical world using push switches to control an output device (red LED).
+  * 🎥 [Watch Video Demonstration](https://youtu.be/EC4UXZ6iArY)
+* **Experiment 5: Active Buzzer**
+  * Generates continuous sound and audible alerts using an active buzzer with built-in oscillating circuitry.
+  * 🎥 [Watch Video Demonstration](Youtube link)
+* **Experiment 6: Passive Buzzer**
+  * Uses PWM signals to vibrate the air at specific frequencies, playing an eight-note musical scale.
+  * 🎥 [Watch Video Demonstration](Youtube link)
+* **Experiment 7: Water Level Detection Sensor Module**
+  * Measures the depth of water by reading variable analog electrical signals from a pectinate PCB amplifying circuit.
+  * 🎥 [Watch Video Demonstration](Youtube link)
+* **Experiment 8: DHT11 Temperature and Humidity Sensor**
+  * Reads and tracks ambient environmental data (temperature and air humidity) using a digital sensor.
+  * 🎥 [Watch Video Demonstration](Youtube link)
+* **libraries/**
+  * Contains necessary third-party Arduino libraries required to run specific modules (such as the DHT11 sensor).
+
+## 🛠️ General Hardware Requirements
+
+While each experiment has specific component needs outlined in its respective folder, the core hardware used across this repository includes:
+* Elegoo / Arduino Uno R3 Board
+* 830 Tie-Points Breadboard
+* Assorted Jumper Wires (M-M, F-M)
+* USB Cable for programming and power
+
+## 🚀 How to Use This Repository
+
+1.  **Clone or Download:** Download this repository to your local machine.
+2.  **Install Libraries:** Before running the code for sensors like the DHT11, copy the contents of the `libraries/` folder into your local Arduino IDE libraries directory (usually located at `Documents/Arduino/libraries`).
+3.  **Navigate:** Open the folder for the specific experiment you wish to run.
+4.  **Read the Docs:** Check the individual `README.md` inside each experiment folder for exact wiring instructions and component lists.
+5.  **Upload:** Open the `.ino` file in the Arduino IDE, select your board and port, and click "Upload".
 
 ---
-
-Introduction to Physical Computing
-**Physical Computing** is the field of building interactive systems that sense and respond to the analog world using a combination of software and hardware. Unlike traditional computing, which relies on screens and keyboards, physical computing uses sensors (to "feel" the environment) and actuators (to "act" upon it).
-
----
-
-## Project Development and Experimentation
-
-### Experiment 1: Car Sensor Automatic Gate
----
-### Experiment 2: BSU LCD Display (LCD1602)
----
-### Experiment 3: RGB LED
----
-coming soon
+*Documented for physical computing assessment and portfolio development.*
