@@ -4,7 +4,7 @@ Welcome to this Physical Computing project repository! This collection of Arduin
 
 ## 🔗 Project Links
 * **Google Drive:** [Project Folder](https://drive.google.com/drive/folders/1V7OZR1d_17ikVOQnm-Gxx7CaN_fp-wWu?usp=drive_link)
-* **GitHub Repository:** [6_Physical_Computing_Experiments](https://github.com/Careless-Loser/6_Physical_Computing_Experiments.git)
+* **GitHub Repository:** [8_Physical_Computing_Experiments](https://github.com/Careless-Loser/8_Physical_Computing_Experiments.git)
 * **YouTube Playlist:** [Full Experiment Playlist](https://www.youtube.com/playlist?list=PLXSlNqwzq_K5HqcufmH5nnDKOp1EN07ac)
 
 ## 📂 Repository Structure & Video Demonstrations
