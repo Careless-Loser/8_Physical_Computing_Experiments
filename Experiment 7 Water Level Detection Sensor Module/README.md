@@ -1,15 +1,15 @@
-# Experiment 7: DHT11 Temperature and Humidity Sensor 
+# Experiment 7: Water Level Detection Sensor 
 
-In this experiment, we will learn how to read environmental data using a DHT11 Temperature and Humidity Sensor.
+In this experiment, you will learn how to measure the depth of water using a water level detection sensor module.
 
 ## Description
 
-The DHT11 is a basic, low-cost digital sensor that measures both ambient temperature and air humidity. It uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and it outputs a digital signal on a single data pin (meaning no analog input pins are required). While it is not the fastest sensor on the market, it is highly reliable and accurate enough for most projects that need to keep track of basic environmental readings.
+This sensor module is designed to perceive water depth using a very simple but effective method. Its core component is an amplifying circuit composed of a transistor and a series of exposed, pectinate (comb-like) PCB traces. 
 
-To interface with this sensor, we will be using a dedicated software library designed specifically for DHT sensors. Interacting with the DHT11 from scratch requires precise microsecond timing to read the data pulses. By utilizing the library, all of this complex timing is handled in the background, making our Arduino code much shorter, cleaner, and easier to write.
+When you partially submerge the sensor into water, these exposed traces act as a variable resistor. The resistance across the traces changes depending on how much of the sensor is underwater. This physical change is then converted into a variable analog electrical signal. By connecting this sensor to the Arduino, you can read these voltage changes using the Uno R3's built-in Analog-to-Digital Converter (ADC) function, allowing your code to accurately track the rise and fall of the water level.
 
 ## Components Required
 
 * 1x Elegoo Uno R3 (or standard Arduino Uno R3)
-* 1x DHT11 Temperature and Humidity module
+* 1x Water level detection sensor module
 * 3x F-M wires (Female to Male DuPont jumper wires)
