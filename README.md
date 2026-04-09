@@ -25,10 +25,10 @@ This repository is organized into individual folders for each experiment, along 
   * 🎥 [Watch Video Demonstration](https://youtu.be/EC4UXZ6iArY)
 * **Experiment 5: Active Buzzer**
   * Generates continuous sound and audible alerts using an active buzzer with built-in oscillating circuitry.
-  * 🎥 [Watch Video Demonstration](Youtube link)
+  * 🎥 [Watch Video Demonstration](https://youtu.be/VUvfrnKiWaw)
 * **Experiment 6: Passive Buzzer**
   * Uses PWM signals to vibrate the air at specific frequencies, playing an eight-note musical scale.
-  * 🎥 [Watch Video Demonstration](Youtube link)
+  * 🎥 [Watch Video Demonstration](https://youtu.be/Q3k1cBI2HFo)
 * **Experiment 7: Water Level Detection Sensor Module**
   * Measures the depth of water by reading variable analog electrical signals from a pectinate PCB amplifying circuit.
   * 🎥 [Watch Video Demonstration](Youtube link)
