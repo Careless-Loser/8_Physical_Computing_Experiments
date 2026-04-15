@@ -31,10 +31,10 @@ This repository is organized into individual folders for each experiment, along 
   * 🎥 [Watch Video Demonstration](https://youtu.be/Q3k1cBI2HFo)
 * **Experiment 7: Water Level Detection Sensor Module**
   * Measures the depth of water by reading variable analog electrical signals from a pectinate PCB amplifying circuit.
-  * 🎥 [Watch Video Demonstration](Youtube link)
+  * 🎥 [Watch Video Demonstration](https://youtu.be/a-Y60IFRKZo)
 * **Experiment 8: DHT11 Temperature and Humidity Sensor**
   * Reads and tracks ambient environmental data (temperature and air humidity) using a digital sensor.
-  * 🎥 [Watch Video Demonstration](Youtube link)
+  * 🎥 [Watch Video Demonstration](https://youtu.be/VwKs1Pp-lpw )
 * **libraries/**
   * Contains necessary third-party Arduino libraries required to run specific modules (such as the DHT11 sensor).
 
